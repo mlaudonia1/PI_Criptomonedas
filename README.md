@@ -2,7 +2,7 @@
   <strong><h1>PI PT02 "Cryptocurrency Market Data Analytic</h1></strong>
 </p>
 
-##**Objetivo**
+## **Objetivo**
 El objetivo del proyecto es hacer un análisis del mercado de las criptomonedas, para determinar si conviene o no invertir en ellas, y en cuáles, en el año 2023, para obtener rendimientos mayores a inversiones más conservadoras, como pueden ser los bonos del Tesoro de Estados Unidos. La recomendación final está dirigia a un público que cuenta con una cartera de riesgo intermedia (ni muy conservadora, ni muy arriesgada), en donde deja un 25% de margen de su portafolio para invertir en alternativas de inversión consideradas de riesgo.
 
 ## **Resultados del análisis**
