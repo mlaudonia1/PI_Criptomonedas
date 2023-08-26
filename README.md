@@ -1,18 +1,18 @@
-#Proyecto Indivudual PT02 "Cryptocurrency Market Data Analytics"
+#**Proyecto Indivudual PT02 "Cryptocurrency Market Data Analytics"**
 
-##Objetivo
+##**Objetivo**
 El objetivo del proyecto es hacer un análisis del mercado de las criptomonedas, para determinar si conviene o no invertir en ellas, y en cuáles, en el año 2023, para obtener rendimientos mayores a inversiones más conservadoras, como pueden ser los bonos del Tesoro de Estados Unidos. La recomendación final está dirigia a un público que cuenta con una cartera de riesgo intermedia (ni muy conservadora, ni muy arriesgada), en donde deja un 25% de margen de su portafolio para invertir en alternativas de inversión consideradas de riesgo.
 
-##Resultados del análisis
+##**Resultados del análisis**
 Adelantamos la recomendación del análsis que se expondrá debajo: elegimos al Bitcoin como primer alternativa de inversión para cubrir el 18% de la cartera de criptomonedas, y le damos una chance a Ripple(7%), que se comportó más volatil pero va en ascenso en las últimas semanas. El resto, lo dejamos en inversiones seguras para ahorro de largo plazo, 80%, por ejemplo, en un 50% de ese 80% en SPY, y un 50% en bonos del Tesoro de Estados Unidos, considerados los más cosnervadores de todos los activos de inversión.
 
 
-##Desarrollo
+##**Desarrollo**
 
 ###Fuentes
 A lo efectos del análisis, se tomaron como fuentes de datos primaria los datasets de CoinGecko, uno de los sitios más reconocidos que recaba las más amplia información sobre las criptomonedas, y que provee una api para que los desarrolladores puedan extraer dichos datos. CoinGecko provee información de mercado de más de 4000 criptomonedas. También se acudió a sitios especializados de inversión investing.com para poder tomar series de datos históricas de los bonos del Tesoro de Estados Unidos, y de la performance de las 500 empresas más importantes de Estados Unidos, medidas por un instrumento derivado que sigue al índice S&P 500, más conocido como el SPY.  Alternativamente se buscaron los valores históricos del dólar blue en la Argentina, de sitios no oficiales pero que monitorean diaramiente las cotizaciones implícitas en el mercado para tomar el dólar, y para extraer dichos datos se utilizó la técnica de webscrapping.
 
-###EDA
+##**#EDA**
 Como primer paso para comenzar con el análisis exploratorio de datos, se extrajo la serie de tiempo de las 10 monedas de mayor capitalización de mercado, debido a que son monedas que manejan volumen importante, y por lo tanto son relativamente líquidas, es decir, unn inversores puede ingressar y salir del mercado cuando lo considere, ya que seguramente podrá enconrar fácilmente un comprador u vendedor, depenndiendo de la operación que quiera realizar.
 Es de destacar también que  las 10 criptomonedas de mayor precio también coinciden con las de mayor volumen, aunque el orden en el ranking o sea el mismo, todas se mantienen entre las TOP ten.
 De esta forma, se determinó que Bitcoin, Ethereum, Cardamo, Ripple, Binancecoin, Solana, Polkadot, Dogecoin, Avalanche-2 y Shiba-inu integran el universo top 10 .
@@ -24,9 +24,9 @@ Al comparar la evolución de las monedas en un gráfico, observamos que había e
 Se observó que Ethereum, Solana, y Ripple tenían otuliers, y se estudiaron los precios a partir de los umbrales. En el caso de Eheterum (umbral =1300 U$S) y Solana (umbral=15 U$D), se observó que os outliers tienen que ver con los mínimos del principios de 2023, cuando los precios de las criptomonedas estuvieron en lo más bajo, en lo que va de 2023. 
 En cambio en Ripple (umbral 0.69 U$D), los outliers se encuentran al final de la serie, donde se observó que hubo una aceleración de precio desde fines de julio  y quecontinuó en agosto. Dejamos en la serie los outliers en el primer caso (Ethereum y Solana) para conservar la integridad temporal, y en el segundo(Ripple), porque da cuenta de una aceleración de las últimas semanas y puede ser un determinante a la hora de decidir inveritr en dicha moneda. 
 En cuanto a Ripple, las noticas dieron cuenta de que tuvo una victoria parcial ante la comisión de regulación de EEUU (SEC) y animó a inversores a seguir invirtiendo. Los informes públicos disponibles señalan que:
-# -Los inversores institucionales han invertido en Ripple (XRP) durante 16 semanas consecutivas según un informe de CoinShares.
-# -Los activos bajo gestión de productos de inversión en XRP han aumentado un 127% desde principios de año.
-# -Se han invertido mas de $11,25 millones en XRP desde comienzos de 2023.
+-Los inversores institucionales han invertido en Ripple (XRP) durante 16 semanas consecutivas según un informe de CoinShares.
+-Los activos bajo gestión de productos de inversión en XRP han aumentado un 127% desde principios de año.
+-Se han invertido mas de $11,25 millones en XRP desde comienzos de 2023.
 
 ![Texto alternativo](./Outliers.png)
 
@@ -34,9 +34,9 @@ Vale acotar que las criptomonedas tuvieron un pésimo año durante 2022, ya que 
 Asimismo, intentamos ver correlaciones entre monedas a través de distintas técnicas. Tanto en el scatterplot como en la matriz de correlación se observó que Bitcoin y Ethereum tienen una alta correlacón positiva. Cuando Bitcoin sube, también sube Ethereum, y lo mismo cuando el sentimiento es negativo hacia estas monedas: cuando baja una, también baja la otra. 
 Por otro lado, se ubican Cardano, Binance, y Dogecoin, Avalanche-2 y Polkadot, todas  con una fuerte correlacion positiva. Esto es, cuando una de ellas se incrementa, también se incrementa la otra, aunque la correlación no implique que el ascenso de una moneda sea la causa de la otra. 
 
-## KPI´s
+## **KPI´s**
 
-###Variación en el precio del activo
+###**Variación en el precio del activo**
 
 Luego procecidmos a aanlizar el desempeño de las monedas elegidas, según la variación en el precio. Esta un una métrica imprescindible, a la hora de determinar qué moneda elegir.
 Entre las criptomoedas de mayor capitalización, durante el 2023 las monedas de mejor desempeño en el precio resultaron el Bitcoin (59,49%),  Ripple(48,8%) y Ethereum(39,58%), entre las tres primeras del ranking de variación de precios. 
@@ -49,7 +49,7 @@ Pese a la expectacular suba de Bitcoin de casi 60%  durante lo que va de 2023, a
 
 ![Texto alternativo](./Precios_TOP3_cripto_SPY.png)
 
-###Indicador EMA20 
+###**Indicador EMA20** 
 
 Otro indicador clave que vamos a tomar en considereación para invertir o no en criptomonedas, y en cúal , es el EMA20, que calcula las medias móviles exponenciales, para determinar si una moneda está en su fase de suba (y puede resultar interesante para su compra) o eventual baja (y determinar si conviene vender dicho activo).
 Para efectos de simplicidad y prácticos, quitamos los campos de precio de inicio y cierre de la base de datos, con lo cual no haremos gráficos de velas, sino de promedios exponenciales.
@@ -63,20 +63,18 @@ Por lo que se desprende de las observaciones del EMA, el Bitcoin aún tiene marg
 ![Bitcoin_EMA20](./Analisis_Tecnico_Bitcoin_EMA20.png)
 
 
-
-###The Fear and Greed Index o Indicador del Miedo y Codicia
+###**The Fear and Greed Index o Indicador del Miedo y Codicia**
 
 Otro de los indiadores de desempeño que vamos a tomar en cuenta es el "The Fear and Greed Index in Investing", indicador popular de sentimiento en Bitoin, pero se tiene en cuenta para otraa criptomonedas también debido a que Bitcoin domina el espacio de las criptomonedas (tiene una dominancia de mercado de ) y de algua forma ditamina el comportamiento de otras criptomonedas. Hoy este indicador se encuentra en la etapa de "fear, con 39 puntos", esto es, viene de haber estado más bajo, con mayor miedo a invertir mayor a hoy, cuando ese miedo es menor, y por lo que se ve hay un magen para seguir invirtiendo cuando hay miedo, y esperar, hasta que se vaya el miedo del inversor y todo el mundo este comprando -mayor codicia-, y sea la hora de, precisamente, salir en lo más alto.
 Por otro lado en nuestro análisis arriba observamos que Bitocoin Ethereum estaban altamente correlacionadas en los precios.
 Otro dato a destacar de este indicador del es que sería más relevante para el corto plazo, y nosotros precisamente queremos armar una cartera de nversión en el corto plazo para decidir si destinar un 25% en criptomonedas y aprovechar la eventual suba de lo que queda del 2023, para un inversor de riesgo intermedio.
 
-<img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" />
 
 ![Bitcoin_EMA20](./fear_and_greed_index.png)
 
 
 
-##Conclusión
+##**Conclusión**
 Por todas estas razones, por ser el activo de mayor capitalización, de mayor suba de precio en 2023, de que queda un potencial margen de suba,  según se ve en el EMA20 y en el Indice del Miedo y Codicia, elegimos al Bitcoin como primer alternativa de inversión para cubrir el 18% de la cartera de criptomonedas, y le damos una chance a Ripple(7%), que se comprotó más volatil pero va en ascenso en las últimas semanas.
 El resto, lo dejamos en inversiones más seguras para ahorro de largo plazo, 75%, por ejemplo, en un 50% den SPY, y un 50% en bonos del Tesoro de Estados Unidos, considerados los más cosnervadores de todos los activos de inversión.
 
