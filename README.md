@@ -78,11 +78,10 @@ Otro dato a destacar de este indicador del es que sería más relevante para el 
 
 
 ### Análisis técnico de Solana: más KPIS 
-Dado el tiempo limitado para el trabajo, con estos indicios y nuesros kPIS nos permiten utilizar análisis externos de otras fuentes para determinar la elección final de nuestra criptomoneda, que estimamos será Solana. Así,  tomamos el analisis técnico y fundamental de [BitcoinWisdom]
-(https://bitcoinwisdom.com/es/solana-sol-price-prediction/#:~:text=Las%20predicciones%20de%20precios%20de,podr%C3%ADa%20alcanzar%20%2483.62%20para%202025) para Solana, efectuado el 24 e agosto de 2023.
+Dado el tiempo limitado para el trabajo, con estos indicios y nuesros kPIS nos permiten utilizar análisis externos de otras fuentes para determinar la elección final de nuestra criptomoneda, que estimamos será Solana. Así,  tomamos el analisis técnico y fundamental de ![BitcoinWisdom](https://bitcoinwisdom.com/es/solana-sol-price-prediction/#:~:text=Las%20predicciones%20de%20precios%20de,podr%C3%ADa%20alcanzar%20%2483.62%20para%202025) para Solana, efectuado el 24 e agosto de 2023.
 Asimismo, realizamos nuestros propios cálculos de MACD y RSI, para cobrroborar estas afirmaciones
 
-**Análisis Técnico adicional de Solana** .En general, cse prevé que SOL vuelva a subir, utilizando los indicadores MACD (Moving Average Convergence Divergence) y el RSI (Relative Strength Index), que son dos indicadores ampliamente utilizados en el análisis técnico del mercado financiero, incluidos los mercados de acciones, forex y criptomonedas. 
+**Análisis Técnico adicional de Solana** .En general, se prevé que SOL vuelva a subir, utilizando los indicadores MACD (Moving Average Convergence Divergence) y el RSI (Relative Strength Index), que son dos indicadores ampliamente utilizados en el análisis técnico del mercado financiero, incluidos los mercados de acciones, forex y criptomonedas. 
 Ambos indicadores ayudan a los traders e inversores a evaluar la dirección y la fuerza de una tendencia, así como a identificar posibles puntos de reversión en el precio de un activo.
 Explicamos un poco más de que se trtan estos indicadores clave:
 - El MACD es un indicador de seguimiento de tendencia que se basa en la diferencia entre dos promedios móviles exponenciales (EMA) de diferentes períodos (corto y largo). Consiste en dos componentes principales:
