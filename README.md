@@ -85,13 +85,13 @@ Asimismo, realizamos nuestros propios cálculos de MACD y RSI, para cobrroborar 
 **Análisis Técnico adicional de Solana** .En general, cse prevé que SOL vuelva a subir, utilizando los indicadores MACD (Moving Average Convergence Divergence) y el RSI (Relative Strength Index), que son dos indicadores ampliamente utilizados en el análisis técnico del mercado financiero, incluidos los mercados de acciones, forex y criptomonedas. 
 Ambos indicadores ayudan a los traders e inversores a evaluar la dirección y la fuerza de una tendencia, así como a identificar posibles puntos de reversión en el precio de un activo.
 Explicamos un poco más de que se trtan estos indicadores clave:
--El MACD es un indicador de seguimiento de tendencia que se basa en la diferencia entre dos promedios móviles exponenciales (EMA) de diferentes períodos (corto y largo). Consiste en dos componentes principales:
-- - **Línea MACD**, es la diferencia entre el EMA de período corto y el EMA de período largo. Muestra la relación entre las medias móviles y ayuda a identificar cambios en la tendencia.
-- -**Señal o Línea de Señal,** es en realdiad un EMA de la línea MACD. Ayuda a suavizar las fluctuaciones y puede generar señales de compra o venta cuando cruza con la línea MACD.
+- El MACD es un indicador de seguimiento de tendencia que se basa en la diferencia entre dos promedios móviles exponenciales (EMA) de diferentes períodos (corto y largo). Consiste en dos componentes principales:
+  -  **Línea MACD**, es la diferencia entre el EMA de período corto y el EMA de período largo. Muestra la relación entre las medias móviles y ayuda a identificar cambios en la tendencia.
+  - **Señal o Línea de Señal,** es en realdiad un EMA de la línea MACD. Ayuda a suavizar las fluctuaciones y puede generar señales de compra o venta cuando cruza con la línea MACD.
 El cruce de la línea MACD y la línea de señal, así como la relación entre la línea MACD y la línea cero, se utilizan para identificar tendencias alcistas y bajistas, así como posibles divergencias entre el indicador y el precio del activo.
--El RSI es un oscilador que mide la velocidad y el cambio de los movimientos de precio. Se calcula en función de la relación entre los incrementos de precio y las disminuciones de precio en un período de tiempo específico. El RSI oscila entre 0 y 100 y generalmente se muestra como una línea en un gráfico.
--- Un RSI por encima de 70 generalmente indica que el activo está sobrecomprado, lo que podría sugerir una posible reversión a la baja.
--- Un RSI por debajo de 30 generalmente indica que el activo está sobrevendido, lo que podría sugerir una posible reversión al alza.
+- El RSI es un oscilador que mide la velocidad y el cambio de los movimientos de precio. Se calcula en función de la relación entre los incrementos de precio y las disminuciones de precio en un período de tiempo específico. El RSI oscila entre 0 y 100 y generalmente se muestra como una línea en un gráfico.
+  - Un RSI por encima de 70 generalmente indica que el activo está sobrecomprado, lo que podría sugerir una posible reversión a la baja.
+  - Un RSI por debajo de 30 generalmente indica que el activo está sobrevendido, lo que podría sugerir una posible reversión al alza.
 
 En el caso puntual de Solana (SOL) se analizó con estos indicadores expuesto arriba:
 Tendencia: todos los marcos de tiempo para la moneda continuaron con una tendencia a la baja (corto, mediano y largo plazo) durante más tiempo.
