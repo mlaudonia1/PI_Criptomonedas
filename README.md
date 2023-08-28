@@ -63,7 +63,7 @@ Cruce de EMA y Precio de Cierre: Uno de los patrones técnicos comunes es el cru
 Por lo expuesto, tomamos el EM20 del pecio de Solana, y detectamos que al estar por arriba del margen de suba, y por lo tanto podría  haber margen de compra en futuro cercano, con una curva final que queda tirando a plana, distinto de Bitcoin y Ripple, que también  tienen margen de suba por el EMA20 pero ya la curva está claramente bajando, en comparación con el EMA20 de Solana. Ethereum sigue patrón muy similar a Bitcoin.
 
 
-![Bitcoin_EMA20](./Analisis_Tecnico_Bitcoin_EMA20.png)
+![Bitcoin_EMA20](./Analisis_Tecnico_Solana_EMA20.png)
 
 
 ### **The Fear and Greed Index o Indicador del Miedo y Codicia**
@@ -80,19 +80,18 @@ Otro dato a destacar de este indicador del es que sería más relevante para el 
 ### Análisis técnico de Solana: más KPIS 
 Dado el tiempo limitado para el trabajo, con estos indicios y nuesros kPIS nos permiten utilizar análisis externos de otras fuentes para determinar la elección final de nuestra criptomoneda, que estimamos será Solana. Así,  tomamos el analisis técnico y fundamental de [BitcoinWisdom]
 (https://bitcoinwisdom.com/es/solana-sol-price-prediction/#:~:text=Las%20predicciones%20de%20precios%20de,podr%C3%ADa%20alcanzar%20%2483.62%20para%202025) para Solana, efectuado el 24 e agosto de 2023.
-Asimismo, realizamos nuestros propios cálculos de MACD y RSI, pra cobrroborar estas afirmaciones
+Asimismo, realizamos nuestros propios cálculos de MACD y RSI, para cobrroborar estas afirmaciones
 
-####Análisis Técnico adicional de Solana 
-En general, cse prevé que SOL vuelva a subir, utilizando los indicadores MACD (Moving Average Convergence Divergence) y el RSI (Relative Strength Index), que son dos indicadores ampliamente utilizados en el análisis técnico del mercado financiero, incluidos los mercados de acciones, forex y criptomonedas. 
+**Análisis Técnico adicional de Solana** .En general, cse prevé que SOL vuelva a subir, utilizando los indicadores MACD (Moving Average Convergence Divergence) y el RSI (Relative Strength Index), que son dos indicadores ampliamente utilizados en el análisis técnico del mercado financiero, incluidos los mercados de acciones, forex y criptomonedas. 
 Ambos indicadores ayudan a los traders e inversores a evaluar la dirección y la fuerza de una tendencia, así como a identificar posibles puntos de reversión en el precio de un activo.
 Explicamos un poco más de que se trtan estos indicadores clave:
-**MACD (Moving Average Convergence Divergence):** el MACD es un indicador de seguimiento de tendencia que se basa en la diferencia entre dos promedios móviles exponenciales (EMA) de diferentes períodos (corto y largo). Consiste en dos componentes principales:
-- **Línea MACD**, es la diferencia entre el EMA de período corto y el EMA de período largo. Muestra la relación entre las medias móviles y ayuda a identificar cambios en la tendencia.
--**Señal o Línea de Señal,** es en realdiad un EMA de la línea MACD. Ayuda a suavizar las fluctuaciones y puede generar señales de compra o venta cuando cruza con la línea MACD.
+-El MACD es un indicador de seguimiento de tendencia que se basa en la diferencia entre dos promedios móviles exponenciales (EMA) de diferentes períodos (corto y largo). Consiste en dos componentes principales:
+- - **Línea MACD**, es la diferencia entre el EMA de período corto y el EMA de período largo. Muestra la relación entre las medias móviles y ayuda a identificar cambios en la tendencia.
+- -**Señal o Línea de Señal,** es en realdiad un EMA de la línea MACD. Ayuda a suavizar las fluctuaciones y puede generar señales de compra o venta cuando cruza con la línea MACD.
 El cruce de la línea MACD y la línea de señal, así como la relación entre la línea MACD y la línea cero, se utilizan para identificar tendencias alcistas y bajistas, así como posibles divergencias entre el indicador y el precio del activo.
-**RSI (Relative Strength Index):** el RSI es un oscilador que mide la velocidad y el cambio de los movimientos de precio. Se calcula en función de la relación entre los incrementos de precio y las disminuciones de precio en un período de tiempo específico. El RSI oscila entre 0 y 100 y generalmente se muestra como una línea en un gráfico.
-- Un RSI por encima de 70 generalmente indica que el activo está sobrecomprado, lo que podría sugerir una posible reversión a la baja.
-- Un RSI por debajo de 30 generalmente indica que el activo está sobrevendido, lo que podría sugerir una posible reversión al alza.
+-El RSI es un oscilador que mide la velocidad y el cambio de los movimientos de precio. Se calcula en función de la relación entre los incrementos de precio y las disminuciones de precio en un período de tiempo específico. El RSI oscila entre 0 y 100 y generalmente se muestra como una línea en un gráfico.
+-- Un RSI por encima de 70 generalmente indica que el activo está sobrecomprado, lo que podría sugerir una posible reversión a la baja.
+-- Un RSI por debajo de 30 generalmente indica que el activo está sobrevendido, lo que podría sugerir una posible reversión al alza.
 
 En el caso puntual de Solana (SOL) se analizó con estos indicadores expuesto arriba:
 Tendencia: todos los marcos de tiempo para la moneda continuaron con una tendencia a la baja (corto, mediano y largo plazo) durante más tiempo.
@@ -105,7 +104,7 @@ El volumen en los días al alza es más significativo que el volumen en los día
 
 ![Analisis técnico Solana](./RSI_Solana.png)
 
-![Precios Soana 23 24 25](./solanas_predicciones.png)
+![Precios Soana 23 24 25](./Solanas_predicciones.png)
 Fuente: Bitcoinwisdom.com
 
 
