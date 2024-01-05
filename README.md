@@ -1,5 +1,5 @@
 <p align="center">
-  <strong><h1>PI PT02 "Cryptocurrency Market Data Analytic</h1></strong>
+  <strong><h1>PI PT02 "Cryptocurrency Market Data Analytics"</h1></strong>
 </p>
 
 ## **Objetivo**
